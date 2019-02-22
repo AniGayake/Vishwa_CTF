@@ -1,0 +1,35 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<script>
+ function disableSubmit() {
+  document.getElementById("submit").disabled = true;
+ }
+
+  function activateButton(element) {
+
+      if(element.checked) {
+        document.getElementById("submit").disabled = false;
+       }
+       else  {
+        document.getElementById("submit").disabled = true;
+      }
+
+  }
+</script>
+</head>
+
+<body onload="disableSubmit()">
+  <div id ="form_total" >
+  <form action="terms&conditions.html">
+ <div id="accept">
+  <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)"  autocomplete="off" action="a.html"> <a href="terms&conditions.html" style="text-decoration: none;" style="color: white"> I Agree Terms & Coditions </a>
+</div>
+<div id="next">
+<br>
+  <input  type="submit" name="submit" id="submit" value ="Proceed" action="a.html"/><br>
+</div>
+</form>
+</div>
+</body>
+</html>
