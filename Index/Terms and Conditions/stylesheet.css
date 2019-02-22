@@ -1,0 +1,19 @@
+form{
+}
+
+body {
+	background-image: url("hacker.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+
+}
+#form_total{
+	padding-left: 500px;
+	padding-right: 50px;
+	padding-top: 500px;
+}
+#accept{
+	color: white;
+
+}

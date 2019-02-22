@@ -1,0 +1,54 @@
+body {
+	background-image: url(hacker.jpg) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+#mainBody{
+	max-width: 1200px;
+	max-height: 1500px;
+	background:  #e5e7e9 ;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 30px; 
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	opacity: 0.8;
+}
+#heading1, h1{
+	color: black;
+}
+#termsSer{
+	margin-left:45px;
+	font: 
+}
+
+h1{
+	size: 30px;
+}
+
+#ctfheading{
+	margin-left: 450px;
+	font-size: 47px;
+	font-family: "Times New Roman", Times, serif;
+	padding-top: 20px;
+
+
+
+}
+
+#content{
+	margin-left: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	padding-top: 2px;
+}
+#heading1 h1{
+	font-size: 28px;
+    font-family: "Noto Serif", serif;
+
+
+}
+
+https://github.com/Dexter531/CyberCell
